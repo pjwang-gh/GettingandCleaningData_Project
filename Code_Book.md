@@ -15,7 +15,9 @@ Numerical features: coulmn 2- column 49
 
 ## data tranformation and cleaning 
 The attached run_analysis.R performs the following steps to clean up the data from the project.
+
 1. Merges the training and the test sets to create one data set.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 - "features.txt": This file lists all the 10299 obs. and 561 features, but selected only those "-mean()" or "-std()" features
 - "X_train.txt": 7352 obs. of 561 features (only the 48 selcted features from "features.txt")
@@ -23,11 +25,13 @@ The attached run_analysis.R performs the following steps to clean up the data fr
 - "y_train.txt" and "y_test.txt": 6 training activity labels. 
 - "subject.test.txt" and "subject_train.test": people performed the experiments (1-30)
 - "activity_labels.txt": activity number (1-6) represented "walking","walkingupstairs","walkingdownstairs","sitting","standing","laying" in the data
+
 3. Uses descriptive activity names to name the activities in the data set
+
 4. Appropriately labels the data set with descriptive activity names.
 
 ## create a tidy data
-5. Finally, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+Finally, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 
   
